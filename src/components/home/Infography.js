@@ -12,7 +12,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const Infography = () => {
   const styles = useStyles();
 
-  const Column = () => {
+  const Column = (heading, src, color, count) => {
     return (
       <>
         <Col className={styles.colCard}>
@@ -21,12 +21,12 @@ const Infography = () => {
             <CountUp end={167564} duration={1} separator="," />
           </p>
 
-          <p style={{ color: "#B20000" }}>
+          <p style={{ color: color }}>
             <ArrowUpOutlined style={{ padding: 5 }} />
-            <CountUp end={4302} duration={1} separator="," />
+            <CountUp end={count} duration={1} separator="," />
           </p>
 
-          <LazyLoadImage src={chart} alt="chart" />
+          <LazyLoadImage src={src} alt="chart" />
         </Col>
       </>
     );
