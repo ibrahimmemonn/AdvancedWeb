@@ -1,8 +1,9 @@
 import React from "react";
-import { Body } from "../components/Body";
 import "../../styles/style.css";
-import MainLayout from "../components/layout/MainLayout";
+import { Body } from "../components/Body";
+import Footer from "../components/common/Footer";
 import { JssProvider, SheetsRegistry } from "react-jss";
+import MainLayout from "../components/layout/MainLayout";
 
 const index = () => {
   const sheets = new SheetsRegistry();
@@ -15,6 +16,7 @@ const index = () => {
         }
       >
         <Body />
+        <Footer />
       </MainLayout>
     </JssProvider>
   );
