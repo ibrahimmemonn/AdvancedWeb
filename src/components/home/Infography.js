@@ -84,8 +84,8 @@ const useStyles = createUseStyles({
   },
   colCard: {
     fontFamily: "poppins",
-    margin: 15,
-    padding: 20,
+    margin: 20,
+    padding: 30,
     paddingBottom: 30,
     paddingTop: 30,
     borderRadius: 25,
