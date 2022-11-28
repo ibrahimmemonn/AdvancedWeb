@@ -180,6 +180,7 @@ const useStyles = createUseStyles({
     },
   },
   icons: {
+    cursor: "pointer",
     fontSize: 50,
     marginRight: 20,
     "&:hover": {
