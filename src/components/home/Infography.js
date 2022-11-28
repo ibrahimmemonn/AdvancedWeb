@@ -7,7 +7,6 @@ import chart4 from "../../assets/highChart4.png";
 import CountUp from "react-countup";
 import { createUseStyles } from "react-jss";
 import { ArrowUpOutlined } from "@ant-design/icons";
-
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Infography = () => {
