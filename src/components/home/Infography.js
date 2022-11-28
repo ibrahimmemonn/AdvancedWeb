@@ -11,6 +11,10 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Infography = () => {
   const styles = useStyles();
+
+  const Column = () => {
+    return <></>;
+  };
   return (
     <>
       <Container>
@@ -42,7 +46,6 @@ const Infography = () => {
               <CountUp end={287000} duration={1} separator="," />
             </p>
             <p style={{ color: "#1F5DAB" }}>
-              {" "}
               <ArrowUpOutlined style={{ padding: 5 }} />
               <CountUp end={6546} duration={1} separator="," />
             </p>
@@ -65,7 +68,6 @@ const Infography = () => {
               <CountUp end={200000} duration={1} separator="," />
             </p>
             <p style={{ color: "#EA9161" }}>
-              {" "}
               <ArrowUpOutlined style={{ padding: 5 }} />
               <CountUp end={6546} duration={1} separator="," />
             </p>
