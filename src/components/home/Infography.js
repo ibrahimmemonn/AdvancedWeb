@@ -13,7 +13,23 @@ const Infography = () => {
   const styles = useStyles();
 
   const Column = () => {
-    return <></>;
+    return (
+      <>
+        <Col className={styles.colCard}>
+          <p style={{ marginBottom: 0 }}>{heading}</p>
+          <p style={{ fontSize: 35, marginBottom: 0, fontWeight: 500 }}>
+            <CountUp end={167564} duration={1} separator="," />
+          </p>
+
+          <p style={{ color: "#B20000" }}>
+            <ArrowUpOutlined style={{ padding: 5 }} />
+            <CountUp end={4302} duration={1} separator="," />
+          </p>
+
+          <LazyLoadImage src={chart} alt="chart" />
+        </Col>
+      </>
+    );
   };
   return (
     <>
